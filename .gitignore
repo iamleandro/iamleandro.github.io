@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+*.un~
+dist
+bin/published.js
+
+# Build Path of Test Fixtures
+.DS_Store
+public/
+node_modules/
+.cache/
+
+# IDE specific
+.vscode/
+*.sw*
+
+# misc
+
+# lock files
+package-lock.json
+# ignore any lock file other than main lock file
+!/package-lock.json
+
+# starters are special; we want to persist the lock files
